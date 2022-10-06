@@ -1,2 +1,9 @@
-package Java_1006;public class SetExercise {
+package Java_1006;
+
+public class SetExercise {
+    SetExercise(){
+
+    }
+
+
 }
