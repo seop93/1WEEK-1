@@ -65,7 +65,8 @@ public class MapExerciseMain {
         map.put("한건주",	"https://github.com/sandee-han/java-project-push-exercise");
         map.put("허진혁",	"https://github.com/JinDDung2/java-project/tree/main");
         map.put("황민우",	"https://github.com/menuhwang/LikeLion");
-        
+
+        System.out.println(map.size());
         // ... 90
 
     }
