@@ -5,7 +5,7 @@ public class PopulationMove {
     private int toSido;
 
     public int getFromSido() {
-        return fromSido;
+        return this.fromSido;
     }
 
     public void setFromSido(int fromSido) {
@@ -13,7 +13,7 @@ public class PopulationMove {
     }
 
     public int getToSido() {
-        return toSido;
+        return this.toSido;
     }
 
     public void setToSido(int toSido) {
@@ -24,4 +24,10 @@ public class PopulationMove {
         this.fromSido = fromSido;
         this.toSido = toSido;
     }
+
+    public PopulationMove(String fromSido, String toSido) {
+        this.fromSido = Integer.parseInt(fromSido);
+        this.toSido = Integer.parseInt(toSido);
+    }
+
 }
